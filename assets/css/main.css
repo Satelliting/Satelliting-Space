@@ -1,0 +1,147 @@
+body {
+    background: url("../img/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    color: #FFFFFF;
+    font-family: Josefin Sans;
+}
+
+header {
+    margin-top: 20px;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 64px;
+}
+
+header h3 {
+    font-size: 36px;
+}
+
+h3, h4, h5, h6 {
+    font-family: Josefin Sans;
+}
+
+nav {
+    margin-bottom: 10px;
+}
+
+nav .col-md-6 {
+    padding: 0;
+}
+
+.nav-link {
+    width: 100%;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.nav-link.active {
+    background-color: rgba(0, 0, 0, 0.6) !important;
+    border: 1.25px solid rgba(255, 255, 255, 0.8);
+    border-radius: 0;
+    font-weight: bold;
+}
+
+#main .container {
+    background-color: #FFFFFF;
+    color: #1b1b1b;
+    min-height: 500px;
+    font-family: Lato;
+}
+
+#main .row {
+    min-height: 500px;
+}
+
+#main h3 {
+    font-size: 48px;
+}
+
+#about .about-text,
+#experience .experience-text,
+#contact .contact-text {
+    max-height: 500px;
+    padding-top: 15px;
+    overflow: auto;
+}
+
+#about .about-img {
+    max-height: 460px;
+    width: auto;
+}
+
+#about ul li {
+    color: #073470;
+}
+
+#about ul li:hover {
+    color: #077048;
+    cursor: pointer;
+}
+
+#experience .experience-text {
+    font-size: 0.9rem;
+}
+
+#experience h5 small {
+    float: right;
+}
+
+#experience em {
+    float: right;
+}
+
+#experience a {
+    color: #122ca1;
+}
+
+#contact h3 {
+    font-size: 1.75rem;
+}
+
+#contact li {
+    list-style: none;
+}
+
+#contact li a {
+    text-decoration: none;
+    color:#000000;
+}
+
+#contact li a:hover {
+    color:rgb(0, 0, 30, 0.6);
+}
+
+#contact .form-group {
+    margin-top: 20px;
+}
+
+#contact .img-text {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    background-color: #001E36;
+    opacity: 90%;
+    border-top: 2px solid rgba(0, 0, 0, 0.6);
+    margin: auto;
+}
+
+footer .row {
+    height: 50px;
+}
+
+footer .fa-heart {
+    color: #CC3B2B;
+}
