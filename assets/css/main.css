@@ -47,6 +47,10 @@ nav .col-md-6 {
     font-weight: bold;
 }
 
+#main {
+    padding-bottom: 75px;
+}
+
 #main .container {
     background-color: #FFFFFF;
     color: #1b1b1b;
@@ -71,8 +75,8 @@ nav .col-md-6 {
 }
 
 #about .about-img {
-    max-height: 460px;
-    width: auto;
+    width: 100%;
+    padding: 10px 0;
 }
 
 #about ul li {
