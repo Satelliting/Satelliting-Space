@@ -20,5 +20,5 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./app # Adjust this to your deployment directory
+          local-dir: ./app/ # Adjust this to your deployment directory
           server-dir: /htdocs/ # Adjust this to your server directory on Hosted Server
