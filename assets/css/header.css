@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
+
+header {
+  color: #ffffff;
+  font-family: "Space Mono", monospace;
+  background-image: url("./../img/header-background.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 99;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline;
+  padding: 10px;
+}
+
+nav ul li a {
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 18px;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+nav ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.header-content {
+  position: static;
+  text-align: center;
+  width: 100%;
+}
+
+.header-content img {
+  height: 200px;
+  width: auto;
+}
+
+.header-text h2 {
+  font-size: 24px;
+  margin: 0;
+  text-shadow: 2px 2px 3px rgba(144, 238, 144, 0.7);
+}
+
+.header-text h3 {
+  font-size: 18px;
+  margin: 5px 0;
+  text-shadow: 1px 1px 2px rgba(70, 130, 180, 1);
+}
+
+.header-text h1 {
+  font-size: 48px;
+  margin: 5px 0;
+  text-transform: uppercase;
+  text-shadow: 3px 3px 5px rgba(144, 238, 144, 0.7),
+    -3px -3px 5px rgba(70, 130, 180, 1);
+}
+
+@media (max-height: 400px) {
+  .header-content {
+    margin-top: 50px;
+  }
+}

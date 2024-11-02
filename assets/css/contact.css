@@ -1,0 +1,131 @@
+.contact {
+  padding: 20px;
+  background-image: url("./../img/contact-background.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+}
+
+.contact h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#responseMessage {
+  padding: 10px;
+  text-align: center;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-family: "Space Mono", monospace;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #ffffff;
+  font-family: "Inter", sans-serif;
+}
+
+.form-group textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000000;
+}
+
+.form-group input:disabled,
+.form-group textarea:disabled {
+  background-color: rgba(0, 0, 0, 0.25);
+  color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+}
+
+.contact button {
+  background-color: rgba(0, 123, 255, 0.75);
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: "Space Mono", monospace;
+  transition: background-color 0.3s ease;
+  width: 95%;
+  align-self: center;
+}
+
+.contact button:hover {
+  background-color: rgba(0, 86, 179, 0.5);
+}
+
+::placeholder {
+  color: #ccc;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: #ccc;
+}
+
+::-ms-input-placeholder {
+  color: #ccc;
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    padding: 40px;
+  }
+
+  .contact h1 {
+    font-size: 36px;
+  }
+
+  .contact form {
+    padding: 20px;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-group label {
+    font-size: 18px;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 18px;
+  }
+
+  .form-group textarea {
+    height: 150px;
+  }
+
+  .contact button {
+    font-size: 18px;
+  }
+}
